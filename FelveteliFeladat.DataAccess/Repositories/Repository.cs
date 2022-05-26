@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FelveteliFeladat.DataAccess.Repository
+namespace FelveteliFeladat.DataAccess.Repositories
 {
     public class Repository<T> : IRepository<T> where T : Entity
     {

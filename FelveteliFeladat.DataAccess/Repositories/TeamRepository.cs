@@ -1,6 +1,6 @@
 ﻿using FelveteliFeladat.DataAccess.Data;
 using FelveteliFeladat.DataAccess.Interfaces;
-using FelveteliFeladat.DataAccess.Repository;
+using FelveteliFeladat.DataAccess.Repositories;
 using FelveteliFeladat.Models;
 using System;
 using System.Collections.Generic;
