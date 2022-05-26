@@ -1,11 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FelveteliFeladat.Models
 {
     public class Team : Entity
     {
         [Key]
-        public int Id { get; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public override int Id { get; set; }
         
         [MaxLength(50)]
         public string Name { get; set; }

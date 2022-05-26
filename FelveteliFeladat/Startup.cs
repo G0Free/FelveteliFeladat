@@ -1,3 +1,8 @@
+using FelveteliFeladat.DataAccess.Data;
+using FelveteliFeladat.DataAccess.Interfaces;
+using FelveteliFeladat.DataAccess.Repositories;
+using FelveteliFeladat.Logic.Interfaces;
+using FelveteliFeladat.Logic.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +28,9 @@ namespace FelveteliFeladat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<FelveteliFeladatDbContext>();
+            services.AddTransient<ITeamRepository, TeamRepository>();
+            services.AddTransient<ITeamLogic, TeamLogic>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
