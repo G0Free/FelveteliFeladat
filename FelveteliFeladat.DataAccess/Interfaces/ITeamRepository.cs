@@ -9,6 +9,6 @@ namespace FelveteliFeladat.DataAccess.Interfaces
 {
     public interface ITeamRepository : IRepository<Team>
     {
-        void UpdateIsPayedTheEntryFee();
+        void UpdateIsPayedTheEntryFee(int id, bool newValue);
     }
 }
