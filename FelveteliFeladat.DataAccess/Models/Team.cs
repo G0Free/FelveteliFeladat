@@ -25,5 +25,9 @@ namespace FelveteliFeladat.Models
             NumberOfChampionshipWins = numberOfChampionshipWins;
             IsPayedTheEntryFee = isPayedTheEntryFee;
         }
+        public Team()
+        {
+
+        }
     }
 }
