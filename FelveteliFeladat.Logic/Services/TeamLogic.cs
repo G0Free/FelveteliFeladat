@@ -29,7 +29,7 @@ namespace FelveteliFeladat.Logic.Services
 
         public Team Read(int id)
         {
-            return teamRepository.Read(id) ?? throw new ArgumentException("Car with the specified id does not exists.");
+            return teamRepository.Read(id) ?? throw new ArgumentException("Team with the specified id does not exists.");
         }
 
         public IEnumerable<Team> ReadAll()

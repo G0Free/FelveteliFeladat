@@ -10,7 +10,7 @@ namespace FelveteliFeladat.Models
         public override int Id { get; set; }
         
         [MaxLength(50)]
-        public string Name { get; set; }
+        public string Name { get; set; }        
         public int FoundationYear { get; set; }
 
         [Range(0,int.MaxValue)]
