@@ -44,7 +44,7 @@ namespace FelveteliFeladat.DataAccess.Data
             new Team(8, "Alpha Tauri", 2020, 0, true),
             new Team(9, "Alfa Romeo", 1950, 0, true),
             new Team(10, "Williams", 1978, 9, true)
-        };
+            };
 
             modelBuilder.Entity<Team>().HasData(teams);
         }
