@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace FelveteliFeladat
 {
@@ -28,6 +29,10 @@ namespace FelveteliFeladat
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<FelveteliFeladatDbContext>(options =>
+    options.UseSqlServer(Configuration.GetConnectionString("FelveteliFeladatDbContext")));
+
             services.AddTransient<FelveteliFeladatDbContext>();
             services.AddTransient<ITeamRepository, TeamRepository>();
             services.AddTransient<ITeamLogic, TeamLogic>();

@@ -34,16 +34,16 @@ namespace FelveteliFeladat.DataAccess.Data
         {
             Team[] teams = new Team[]
             {
-            new Team("Mercedes", 1967, 10, true),
-            new Team("Ferrari", 1967, 40, true),
-            new Team("Red Bull", 1967, 8, true),
-            new Team("McLaren", 1967, 3, true),
-            new Team("Alpine", 1967, 3, true),
-            new Team("Haas", 1967, 0, true),
-            new Team("Aston Martin", 1967, 0, true),
-            new Team("Alpha Tauri", 1967, 0, true),
-            new Team("Alfa Romeo", 1967, 1, true),
-            new Team("Williams", 1967, 6, true)
+            new Team(1, "Mercedes", 1967, 10, true),
+            new Team(2, "Ferrari", 1967, 40, true),
+            new Team(3, "Red Bull", 1967, 8, true),
+            new Team(4, "McLaren", 1967, 3, true),
+            new Team(5, "Alpine", 1967, 3, true),
+            new Team(6, "Haas", 1967, 0, true),
+            new Team(7, "Aston Martin", 1967, 0, true),
+            new Team(8, "Alpha Tauri", 1967, 0, true),
+            new Team(9, "Alfa Romeo", 1967, 1, true),
+            new Team(10, "Williams", 1967, 6, true)
         };
 
             modelBuilder.Entity<Team>().HasData(teams);

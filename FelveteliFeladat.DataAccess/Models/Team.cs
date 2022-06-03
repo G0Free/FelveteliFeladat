@@ -17,8 +17,9 @@ namespace FelveteliFeladat.Models
         public int NumberOfChampionshipWins { get; set; }
         public bool IsPayedTheEntryFee { get; set; }
 
-        public Team(string name, int foundationYear, int numberOfChampionshipWins, bool isPayedTheEntryFee)
+        public Team(int id, string name, int foundationYear, int numberOfChampionshipWins, bool isPayedTheEntryFee)
         {
+            Id = id; 
             Name = name;
             FoundationYear = foundationYear;
             NumberOfChampionshipWins = numberOfChampionshipWins;
