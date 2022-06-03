@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FelveteliFeladat", "FelveteliFeladat\FelveteliFeladat.csproj", "{3B2A1C7A-E465-483D-AFE9-61182D502F62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FelveteliFeladat.Endpoint", "FelveteliFeladat\FelveteliFeladat.Endpoint.csproj", "{3B2A1C7A-E465-483D-AFE9-61182D502F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FelveteliFeladat.DataAccess", "FelveteliFeladat.DataAccess\FelveteliFeladat.DataAccess.csproj", "{AA5A50EC-FCF7-4FF1-8724-F26D7DB5B441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FelveteliFeladat.DataAccess", "FelveteliFeladat.DataAccess\FelveteliFeladat.DataAccess.csproj", "{AA5A50EC-FCF7-4FF1-8724-F26D7DB5B441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FelveteliFeladat.Logic", "FelveteliFeladat.Logic\FelveteliFeladat.Logic.csproj", "{266A052A-B7BA-4AFA-830C-3F7A1670C5B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FelveteliFeladat.Logic", "FelveteliFeladat.Logic\FelveteliFeladat.Logic.csproj", "{266A052A-B7BA-4AFA-830C-3F7A1670C5B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
