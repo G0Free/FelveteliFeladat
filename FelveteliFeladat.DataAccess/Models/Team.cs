@@ -15,6 +15,7 @@ namespace FelveteliFeladat.Models
         public string Name { get; set; }
 
         [Required]
+        [Range(0, int.MaxValue)]
         [DisplayName("Foundation Year")]
         public int FoundationYear { get; set; }
 
